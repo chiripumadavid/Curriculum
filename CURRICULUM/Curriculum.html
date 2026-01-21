@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículum - María López</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<style>
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    padding: 30px;
+}
+
+.cv {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
+.header {
+    background: #3f5c73;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.header h2 {
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+}
+
+/* LEFT COLUMN */
+.left {
+    width: 30%;
+    background: #f7f7f7;
+    padding: 20px;
+}
+
+.left section {
+    margin-bottom: 25px;
+}
+
+.left h3 {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.left ul {
+    list-style: none;
+}
+
+.left li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.left p {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+/* RIGHT COLUMN */
+.right {
+    width: 70%;
+    padding: 25px;
+}
+
+.right section {
+    margin-bottom: 30px;
+}
+
+.right h3 {
+    border-bottom: 2px solid #3f5c73;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.right p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h4 {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.job span {
+    font-size: 13px;
+    color: gray;
+}
+
+.job ul {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.job li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+</style>
+<div class="cv">
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <div class="header-text">
+            <h1>Rene David Chiri Puma</h1>
+            <h2>Ingeniera en Sistemas</h2>
+        </div>
+    </header>
+
+    <!-- CONTENIDO -->
+    <div class="content">
+
+        <!-- COLUMNA IZQUIERDA -->
+        <aside class="left">
+            <section>
+                <h3>Contacto</h3>
+                <p>📞 +591 68386693</p>
+                <p>✉️ chiripumadavidg@email.com</p>
+                <p>📍 Potosi, Bolivia</p>
+                <p>🔗 linkedin.com/maria-lopez</p>
+            </section>
+
+            <section>
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Español (Nativo)</li>
+                    <li>Inglés (Intermedio)</li>
+                    <li>Francés (Intermedio)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Análisis estructural</li>
+                    <li>Planificación de obras</li>
+                    <li>Resolución de problemas</li>
+                    <li>Escucha activa</li>
+                    <li>Gestión de proyectos</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Software</h3>
+                <p>Word</p>
+                <p>Excel</p>
+                <p>PowerPoint</p>
+                <p>AutoCAD</p>
+                <p></p>
+            </section>
+
+            <section>
+                <h3>Intereses</h3>
+                <ul>
+                    <li>Innovación en Ingeniería en Sistemas</li>
+                    <li>Sostenibilidad Ambiental</li>
+                    <li>Proyectos Comunitarios</li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- COLUMNA DERECHA -->
+        <main class="right">
+            <section>
+                <h3>Perfil</h3>
+                <p>
+                    Ingeniera en sistemas con experiencia en diseño y gestión de proyectos
+                    de construcción. Apasionada por la innovación en el sector de la
+                    ingeniería en sistemas y comprometida con la excelencia técnica.
+                </p>
+            </section>
+
+            <section>
+                <h3>Experiencia Profesional</h3>
+
+                <div class="job">
+                    <h4>Ingeniera de Proyectos</h4>
+                    <span>Construcciones Barcelona SA | 2021 - 2024</span>
+                    <ul>
+                        <li>Desarrollé e implementé un plan de gestión de riesgos.</li>
+                        <li>Negocié acuerdos con proveedores y contratistas.</li>
+                        <li>Elaboré informes y presentaciones ejecutivas.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h4>Ingeniera de Campo</h4>
+                    <span>Ingeniería y Construcción BCN | 2017 - 2020</span>
+                    <ul>
+                        <li>Gestión de Redes y Conectividad.</li>
+                        <li>Mantenimiento y Soporte de Hardware.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h4>Asistente de Ingeniería</h4>
+                    <span>Construcciones Urbanas BCN S.L | 2014 - 2016</span>
+                    <ul>
+                        <li>Investigación de tecnologías ambientales.</li>
+                        <li>Elaboración de informes técnicos.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h3>Formación Académica</h3>
+                <p><strong>Máster en Ingeniería Civil</strong><br>UPC, Barcelona | 2011 - 2013</p>
+                <p><strong>Grado en Ingeniería Civil</strong><br>Universidad de Barcelona | 2007 - 2010</p>
+            </section>
+        </main>
+
+    </div>
+</div>
+
+</body>
+</html>
