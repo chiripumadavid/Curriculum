@@ -1,2 +1,0 @@
-# Curriculum
-Hoja de vida
